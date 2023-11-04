@@ -1,0 +1,25 @@
+# Declare and initialize 3 three variable and print the biggest number.
+
+a = 10
+
+b = 30
+
+c = 20
+
+
+if a > b and a > c :
+    print(f"The biggest number is {a}")
+elif b > a and b > c :
+    print(f"The biggest number is {b}")
+else :
+    print(f"The biggest number is {c}")
+
+
+-----------Another method using predefined (max) function ------------------------------
+
+a = 10
+b = 5
+c = 20
+
+print(max(a,b,c))   
+     
