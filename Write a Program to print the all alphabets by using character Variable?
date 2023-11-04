@@ -1,0 +1,12 @@
+ # Write a Program to print the all alphabets by using character Variable?
+
+Solution ==
+
+# Using a character variable to print all alphabets
+char_variable = 'a'
+
+while char_variable <= 'z':
+    print(char_variable, end=' ')
+    char_variable = chr(ord(char_variable) + 1)
+
+print()  # To print a new line after all alphabets
