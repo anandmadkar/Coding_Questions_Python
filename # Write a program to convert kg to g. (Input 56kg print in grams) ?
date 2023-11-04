@@ -1,0 +1,9 @@
+Q1. Write a program to convert kg to g. (Input 56kg print in grams) ?
+
+Solution -
+
+user_input = float(input("Enter the kilograms : "))
+
+convert = user_input * 1000
+
+print(f"The {user_input} kg is {convert} grams")
