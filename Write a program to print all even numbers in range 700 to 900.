@@ -1,0 +1,9 @@
+# Write a program to print all even numbers in range 700 to 900.
+        
+lst = []
+
+for i in range(700,901) :
+    if i % 2 == 0 :
+        lst.append(str(i))
+print(lst)
+     
