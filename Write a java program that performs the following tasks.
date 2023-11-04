@@ -5,7 +5,8 @@
 # d. If even divide the number by 3 and print the remainder
 # e. If odd divide the number by 2 and print the remainder.
     
-        
+Solution ==
+
 num = int(input("Enter a number :"))
 
 remainder = 0
