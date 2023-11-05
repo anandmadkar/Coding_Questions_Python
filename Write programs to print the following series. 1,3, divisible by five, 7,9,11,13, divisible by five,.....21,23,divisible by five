@@ -1,0 +1,8 @@
+# Write programs to print the following series. 1,3, divisible by five, 7,9,11,13, divisible by five,.....21,23, 
+# divisible by five
+
+for i in range(1, 26,2):
+    if i % 5 == 0:
+        print("divisible by five", end=", ")
+    else:
+        print(i, end=", ")
