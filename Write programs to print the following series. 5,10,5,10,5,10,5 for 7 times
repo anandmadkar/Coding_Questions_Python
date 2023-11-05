@@ -1,0 +1,8 @@
+ # Write programs to print the following series. 5,10,5,10,5,10,5 for 7 times
+
+for i in range(0,7) :
+    if i%2 == 0 :
+        print("5", end= ",")
+    else :
+        print("10", end= ",")
+    
